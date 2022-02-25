@@ -8,14 +8,14 @@ int rbs(int arr[],int low,int high,int key){
         return 1;
     }
     else if(arr[mid]<key){
-      ans= rbs(arr,mid+1,high,key);
+      return rbs(arr,mid+1,high,key);
 
     }
     else{
-      ans= rbs(arr,low,mid,key);
+      return rbs(arr,low,mid,key);
     }
     }
-    return ans;
+    return -1;
 }
 int main(){
     int n=10;
