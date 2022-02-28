@@ -1,0 +1,11 @@
+ else{
+            while(s.size()>0&&s.top()<arr[i]){
+                s.pop();
+                if(s.size()>0&&s.top()>arr[i]){
+                    v.push_back(s.top());
+                }
+            }
+            if(s.size()==0){
+                v.push_back(-1);
+            }
+        }
