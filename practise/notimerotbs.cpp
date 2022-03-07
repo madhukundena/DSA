@@ -1,17 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
-void nbs(int arr[],int low,int high, int key){
-    int mid,prev,next,n=high+1;
+void nbs(int arr[],int n){
+    int mid,prev,next,low=0,high=n-1;
     while(low<=high)
     {   
-
         mid=(low+high)/2;
         prev=(mid-1+n)%n;
         next=(mid+1)%n;
-        if(arr[mid]<arr[prev]&&arr[mid]<arr[next]){
-            //minind=mid;
+        if(arr[mid]<arr[prev]&&arr[mid]<arr[next]){ 
             break;
-
         }
         else if(arr[high]>arr[mid]){
             high=mid-1;
@@ -19,7 +16,6 @@ void nbs(int arr[],int low,int high, int key){
         else{
             low=mid+1;
         }
-
     }
     cout<<mid<<" times rotated";
 
@@ -29,10 +25,11 @@ void nbs(int arr[],int low,int high, int key){
 
 int main(){ 
     int n=10;
-    int arr[]={1,2,3,4,5,6,7,8,9,10};
-    int low=0,high=n-1,key=10;
+    int arr[]={3,4,5,6,7,8,9,10,1,2};
+    int key=10;
     
-    nbs(arr,low,high,key);
+    nbs(arr,n);
    
     return 0;
 }
+

@@ -26,7 +26,7 @@ void bs(int arr[],int low,int high){
 
 }
 int main(){
-    int arr[]={1,2,3,4,5,6,7};
+    int arr[]={2,3,4,5,6,7,1};
     int low=0,high=7;
     bs(arr,low,high);   
     return 0;
