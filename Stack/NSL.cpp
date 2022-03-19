@@ -15,7 +15,7 @@ int main(){
             v.push_back(s.top());
         }
         else{
-            while (s.size()>0 && arr[i]<s.top())
+            while (s.size()>0 && arr[i]<=s.top())
             {
                 s.pop();
             }
