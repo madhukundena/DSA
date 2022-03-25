@@ -1,13 +1,13 @@
 # DSA
 
 ##Binary Search <br>
-When to apply Binary Search 
-Binary Search on Reverse Sorted array
-Order Not known Search
-First occurrance of an element
-Last occurrance of an element
-Count of an Element in a sorted array
-Number of times sorted array is rotated
+When to apply Binary Search <br>
+Binary Search on Reverse Sorted array<br>
+Order Not known Search<br>
+First occurrance of an element<br>
+Last occurrance of an element<br>
+Count of an Element in a sorted array<br>
+Number of times sorted array is rotated<br>
 Finding the element in a rotated sorted array
 Searching in a Nearly sorted array
 Finding floor of an element in a sorted array
