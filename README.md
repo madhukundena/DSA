@@ -1,7 +1,7 @@
 # DSA
 
-Binary Search
-When to apply Binary Search
+##Binary Search
+When to apply Binary Search --
 Binary Search on Reverse Sorted array
 Order Not known Search
 First occurrance of an element
