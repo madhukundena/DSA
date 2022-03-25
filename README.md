@@ -33,6 +33,18 @@ Stock Span Problem <br>
 Maximum Area Histogram | MAH <br>
  Max Area Rectangle in binary matrix <br>
 Rain Water Trapping <br>
+
+# LinkedList
+<br>
+# Patter printing
+*Stars* <br>
+*Alphabets*  <br>
+*Numbers*  <br>
+# Graph
+
+# Tress
+
+
 Minimum Element in Stack with Extra space <br>
 Minimum Element in Stack in O(1) Space <br>
 
