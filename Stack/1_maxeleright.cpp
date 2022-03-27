@@ -10,7 +10,6 @@ int main(){
     for(int i=n-1;i>=0;i--){
         if(s.size()==0){
             v.push_back(-1);
-
         }
         else if(s.top()>arr[i]){
             v.push_back(s.top());
