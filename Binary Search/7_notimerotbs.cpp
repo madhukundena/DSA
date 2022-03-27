@@ -25,7 +25,7 @@ void nbs(int arr[],int n){
 
 int main(){ 
     int n=10;
-    int arr[]={3,4,5,6,7,8,9,10,1,2};
+    int arr[]={4,5,6,7,8,9,10,1,2,3};
     int key=10;
     
     nbs(arr,n);

@@ -23,7 +23,7 @@ void bs(int arr[],int n,int key){
 
 int main() {
     int arr[]={1,2,3,4,5,6,7,8,9};
-    int n=8, key=11;
+    int n=8, key=8;
     bs(arr,n,key);    
     return 0;
 }
