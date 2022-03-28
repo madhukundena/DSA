@@ -36,6 +36,8 @@ Rain Water Trapping <br>
 
 # LinkedList
 <br>
+insbeg,insend,inspos,delbeg,delend,delpos,dispaly,length,search,get Nth node,middle_ele,del_ele<br>
+
 
 # Patter printing
 *Stars* <br>
