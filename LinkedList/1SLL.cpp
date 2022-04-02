@@ -1,4 +1,4 @@
-// insbeg,insend,inspos,delbeg,delend,delpos,dispaly,length,search,get Nth node,middle_ele
+// insbeg,insend,inspos,delbeg,delend,delpos,dispaly,length,search,get Nth node,middle_ele,reverse
 //del_ele
 
 //inspos, delpos first ele
@@ -242,6 +242,20 @@ void deleteEle(){
     }
 }
 void reverse(){
+    if(head==NULL){
+        cout<<"Empty!!"<<endl;
+        return;
+    }
+    struct node* current=head;
+    struct node* prev=NULL;
+    struct node* next=NULL;
+    while(current!=NULL){
+        next=current->next;
+        current->next=prev;
+        prev=current;
+        current=next;
+    }
+    head=prev;
 
 }
 void intialize(){
@@ -264,7 +278,6 @@ void intialize(){
         ptr=temp;
     }
     return;
-
 }
 
 int main(){
@@ -322,6 +335,9 @@ int main(){
             break;
         case 13:
             deleteEle();
+            break;
+        case 14:
+            reverse();
             break;
         default:
         cout<<"Please Enter a valid Option!!!!!!";
