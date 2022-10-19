@@ -1,6 +1,4 @@
 import java.util.Arrays;
-
-
 class bs{
     static void bsearch(int arr[],int key){
         int low=0,high=arr.length-1,mid=0;
